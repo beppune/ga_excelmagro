@@ -1,0 +1,18 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon>
+    <tabs>
+
+      <tab idMso="TabHome" >
+        <group id="gadc" label="Gestione Accessi" insertAfterMso="GroupEditingExcel">
+
+          <button id="reportLayoutBtn" label="Layout Guardiania" size="normal" 
+		onAction="ReportLayout" image="reportlayout" />
+
+          <button id="reportLayoutAdcBtn" label="Layout Guardiania (Da HTML)" size="normal" 
+		onAction="ReportLayoutFromCopy" image="reportlayout" />
+        </group>
+      </tab>
+
+    </tabs>
+  </ribbon>
+</customUI>
